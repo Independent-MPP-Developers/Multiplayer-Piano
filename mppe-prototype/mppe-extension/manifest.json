@@ -1,0 +1,31 @@
+{
+    "name": "MultiplayerPianoExtention",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.multiplayerpiano.com/*",
+                "https://*.multiplayerpiano.net/*",
+                "https://*.mppclone.com/*"
+            ],
+            "js": [
+                "mpp-insert-module.js",
+                "mpp-init.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "mpp-events.js",
+        "mpp-dm.js",
+        "mpp-main.js",
+        "mpp-friend-manager.js",
+        "mpp-login-manager.js",
+        "mpp-jshtml.js",
+        "mpp-ws.js"
+    ],
+    "browser_action": {
+        "default_popup": "mpp-html.html",
+        "default_title": "MultiplayerPianoExtension"
+    }
+}
