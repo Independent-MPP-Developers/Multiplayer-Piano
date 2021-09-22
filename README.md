@@ -21,5 +21,5 @@
 
   
 <p align=center>
-This repository contains code, scripts and extensions which run on multiplayerpiano.com and its clones to extend capabilites and introduce features.
+This repository contains code, scripts and extensions which run on multiplayerpiano.com and its clones to extend capabilities and introduce features.
 </p>
